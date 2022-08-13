@@ -1,0 +1,11 @@
+<p>
+  Nome do caboclo: {{this.nome}} tem {{this.idade}}
+</p>
+<p>
+  {{idade > 50? 'Sim':'Nao'}}
+</p>
+<hr/>
+<button [disabled]="checkDisabled">Salvar</button>
+<hr>
+<button (click)="alteraHumor()">{{isFeliz?'Triste':'Feliz'}}</button>
+<img [src]="urlImg"/>
